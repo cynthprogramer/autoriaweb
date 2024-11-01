@@ -1,0 +1,25 @@
+div{
+    background-color: blue;
+    font-size: x-large;
+    height: 100vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    div{
+        background-color: yellowgreen;
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+  
+@media screen and (min-width:1800px){
+    div{
+        background-color: pink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+    
+
+    
+
